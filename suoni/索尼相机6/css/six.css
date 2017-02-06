@@ -1,0 +1,243 @@
+ul, i,ol,body,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,blockquote,figure,form,fieldset,input,legend,pre,abbr,button {
+    margin:0;
+    padding:0;
+    list-style:none;
+    font-style: normal;
+}
+body{ "HanHei SC","PingHei","PingFang SC","STHeitiSC-Light","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+*{
+    box-sizing:border-box;
+    font-size:12px;
+}
+
+a{
+    text-decoration: none;
+}
+img {
+    border: none;
+    vertical-align: middle;
+}
+.header{
+    width:100%;height:auto;
+}
+.header-content{
+    width:1600px;height:auto;
+    background:#fff;
+    margin: 0 auto;
+}
+.nav{
+    width:100%;height:auto;
+    background:#faf9fc;
+    min-width:1200px;
+    margin: 0 auto;
+}
+.nva-1{
+    width:1200px;height:96px;
+    background:#faf9fc;
+    margin:0 auto;
+}
+.nav-content{
+    width:auto;height:96px;
+    text-align:center;
+    line-height:96px;
+    float:left;
+}
+.nav-title{
+    width:152px;height:96px;
+    text-align:center;
+    line-height:96px;
+    display:inline-block;
+    color:#848686;
+    font-size:18px;
+}
+
+.nav-img{
+    width:100%;height:862px;
+    background: red url(../images/fw_02.png) no-repeat;
+}
+.banner-title{
+    width:1200px;height:150px;
+    margin: 0 auto;
+    line-height:150px;
+    padding-left:40px;
+}
+.max{
+    width:100%;height:50px;
+    float: left;
+    margin-top: 50px;
+}
+.banner-title img{
+    width:50px;height:50px;
+    display:block;
+    float: left;
+}
+.god{
+    width:200px;height:50px;
+    text-align: center;
+    line-height:50px;
+}
+h2{
+    font-size:30px;
+}
+.banner{
+    width:1200px;height:874px;
+    border-top:1px solid #fff;
+    margin: 0 auto;
+}
+.banner-left{
+    width:365px;height:560px;
+    border-top:1px solid #fff;
+    float: left;
+    background: #faf9fc;
+}
+.banner-left-title{
+    width:254px;height:74px;
+    border-bottom: 1px solid #ccc;
+    margin: 0 auto;
+    line-height:100px;
+}
+.banner-sub-title{
+    width:236px;height:72px;
+    margin: 0 auto;
+    line-height:100px;
+    font-size: 18px;
+    text-align:left;
+}
+.img{
+    width:18px;height:18px;
+    margin-top:-30px;
+    float:right;
+}
+.img>img{
+    display: block;
+    width:18px;height:18px;
+}
+.banner-right{
+    width:762px;height:736px;
+    margin-left:16px;
+    border-top: 1px solid #fff;
+    float: left;
+}
+h3{
+    font-size:24px;
+    color:#fff;
+}
+.right-content{
+    width:742px;height:736px;
+    margin-top:18px;
+}
+.content-block-1{
+    width:360px;height:360px;
+    background:#faf9fc;
+    float:left;
+    margin-bottom:10px;
+    margin-right: 10px;
+}
+.content-block-2{
+    width:360px;height:360px;
+    background:#faf9fc;
+    float:left;
+    margin-bottom:10px;
+}
+.content-block-3{
+    width:360px;height:360px;
+    background:#faf9fc;
+    float:left;
+    margin-right: 10px;
+}
+.content-block-4{
+    width:360px;height:360px;
+    background:#faf9fc;
+    float:left;
+}
+.right-title{
+    width:100%;height:96px;
+    line-height:48px;
+    padding-left:50px;
+    float:left;
+    margin-top:30px;
+}
+.right-CK {
+    width: 270px;height:66px;
+    background: #000;
+    border-radius:5px;
+    float:left;
+    text-align:center;
+    margin-top:80px;
+    margin-left:30px;
+    line-height:66px;
+}
+.footer{
+    width:100%;height:410px;
+}
+.footer-top{
+    width:1200px;height:243px;
+    margin:0 auto 56px;
+    border-bottom: 1px solid #ccc;
+}
+
+.search{
+    width:100%;height:40px;
+    text-align: left;
+    font-size: 20px;
+}
+.BG{
+    width:220px;height:44px;
+    float:left;
+    margin-right: 20px;
+}
+select{
+    width:220px;height:44px;
+    font-size:14px;
+}
+.ss{
+    width:70px;height:26px;
+    background:#f4b231;
+    text-align:center;
+    line-height: 26px;
+    float:left;
+    margin-top: 9px;
+}
+.search-title{
+    width:100%;height:44px;
+    float:left;
+    margin-top: 80px;
+}
+.title-art{
+    width:100%;height:20px;
+    line-height: 20px;
+    float:left;
+    padding-left:50px;
+    margin-top: 30px;
+}
+.footer-bottom{
+     width:1200px;height:110px;
+     background:black;
+     margin:0 auto;
+ }
+.company{
+    width:1200px;height:54px;
+    border-bottom: 1px solid #ccc;
+    margin: 0 auto;
+    color: #fff;
+    padding-left: 150px;
+    line-height:54px;
+    font-size: 18px;
+    font-weight:700;
+}
+.BA{
+    width:100%;height:55px;
+    padding-left: 150px;
+    line-height: 55px;
+    color: #fff;
+}
+.BA img{
+    width:20px;height:20px;
+    display: inline-block;
+}
+.BA-img{
+    width:486px;height:20px;
+    float:left;
+    margin-right:60px;
+}
