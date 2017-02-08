@@ -1,0 +1,314 @@
+ul, i,ol,body,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,blockquote,figure,form,fieldset,input,legend,pre,abbr,button {
+    margin:0;
+    padding:0;
+    list-style:none;
+    font-style: normal;
+}
+body{ "HanHei SC","PingHei","PingFang SC","STHeitiSC-Light","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+*{
+    box-sizing:border-box;
+    font-size:12px;
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    border:none;
+    vertical-align: middle;
+}
+.header{
+    width:100%;height:auto;
+}
+.header-content{
+    width:1600px;height:auto;
+    background:#fff;
+    margin: 0 auto;
+}
+.nav{
+    width:100%;height:auto;
+    background:#faf9fc;
+    min-width:1200px;
+    margin: 0 auto;
+}
+.nva-1{
+    width:1200px;height:96px;
+    background:#faf9fc;
+    margin:0 auto;
+}
+.nav-content{
+    width:auto;height:96px;
+    text-align:center;
+    line-height:96px;
+    float:left;
+}
+.nav-title{
+    width:152px;height:96px;
+    text-align:center;
+    line-height:96px;
+    display:inline-block;
+    color:#848686;
+    font-size:18px;
+}
+.banner{
+    width:1200px;height:412px;
+    margin: 0 auto;
+}
+.banner-img-04{
+    width:400px;height:412px;
+    background:url(../images/04.jpg);
+    float:left;
+    border-top:1px solid #fff;
+}
+.banner-img-05{
+    width:400px;height:412px;
+    background:url(../images/05.jpg);
+    float:left;
+    border-top:1px solid #fff;
+}
+.banner-img-06{
+    width:400px;height:412px;
+    background:url(../images/06.jpg);
+    float:left;
+    border-top:1px solid #fff;
+}
+.title{
+    width:240px;height:150px;
+    margin:240px auto 0 ;
+}
+.HH{
+    width:240px;height:46px;
+    text-align:center;
+}
+h1{
+    font-size:30px;
+    color: #fff;
+}
+.sub-title{
+    width:240px;height:52px;
+    color:#fff;
+    line-height:26px;
+}
+.bottom-title{
+    width:240px;height:52px;
+    background:#fff;
+    text-align: center;
+    line-height:52px;
+}
+.CK{
+    display: block;
+    text-align: center;
+    line-height:52px;
+    font-size:24px;
+    color:#010102;
+}
+.sub-content{
+    width:1200px;height:auto;
+    margin: 0 auto;
+}
+.middle-content{
+    width:100%;height:438px;
+}
+.content-left{
+    width:800px;height:437px;
+    border-top:1px solid #fff;
+    border-right:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    float:left;
+}
+.content-title{
+    width:646px;height:326px;
+    background:#fff;
+    margin-left:90px;
+    margin-top:42px;
+}
+.title-HK{
+    width:100%;height:32px;
+}
+h2{
+    font-size:24px;
+    color:#010102;
+}
+.HK-img{
+    width:310px;height:294px;
+    float:left;
+}
+.JS{
+    width:336px;height:294px;
+    float:left;
+}
+.JS-title-1{
+    height:63px;
+    line-height:21px;
+    margin-bottom:10px;
+    font-size:14px;
+}
+.JS-title-2{
+    height:63px;
+    line-height:21px;
+    font-size:14px;
+}
+.JS-title-3{
+    width:262px;height:72px;
+    background:#000;
+    margin-top:36px;
+    margin-left:72px;
+    text-align:center;
+    line-height:72px;
+}
+h3{
+    font-size:24px;
+    color:#fff;
+ }
+.content-right{
+    width:400px;height:437px;
+    border-top:1px solid #fff;
+    border-bottom:1px solid #ccc;
+    float:left;
+}
+.content-TJ {
+    width: 100%;height:30px;
+    margin-left:46px;
+    margin-top:40px;
+}
+.content-XJ{
+    width:100%;height:56px;
+    margin-left:46px;
+    margin-top:52px;
+}
+.XJ-img{
+    width:150px;height:56px;
+    float:left;
+}
+.XJ-title{
+    width:200px;height:50px;
+    float:left;
+
+}
+.box-PJ{
+    width:1200px;height:544px;
+    margin: 0 auto;
+}
+.PJ{
+    width:400px;height:544px;
+    float:left;
+    padding-left:42px;
+    border-right:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+}
+.PJ-title{
+    width:100%;height:50px;
+}
+.PJ-img{
+    width:100%;height:200px;
+}
+.PJ-cont{
+    width:100%;height:200px;
+    line-height:20px;
+    font-size: 14px;
+}
+.PJ-CK{
+    width:262px;height:72px;
+    background:#000;
+    text-align:center;
+    line-height:72px;
+}
+.logo-icon{
+    width:100%;height:256px;
+    border-top:1px solid #fff;
+}
+.logo-Q{
+    width:1200px;height:100px;
+    margin:100px auto;
+}
+.logo-img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left:80px;
+    margin-right:50px;
+}
+.img-img img{
+    width: 64px;height:64px;
+    display: block;
+}
+.img-img{
+    width:70px;height:70px;
+    padding-left:20px;
+}
+.img-title{
+    width:100px;height:20px;
+    float:left;
+    text-align: center;
+    line-height:20px;
+}
+.footer{
+    width:100%;height:auto;
+    background:#eee;
+}
+.footer-bottom{
+    width:1200px;height:300px;
+    margin:0 auto;
+    background:#eee;
+}
+.phone{
+    width:100%;height:62px;
+}
+.number{
+    width:100%;height:62px;
+    line-height:62px;
+    text-align: center;
+    font-size:30px;
+}
+.number>span{
+    font-size:24px;
+}
+.more-fw{
+    width:100%;height:180px;
+    border-top:2px solid #cbc9c9;
+}
+.zc{
+    width:1160px;height:178px;
+    margin-left:40px;
+}
+.zc-title{
+    width:230px;height:152px;
+    float:left;
+    border-top:1px solid #cbc9c9;
+}
+.zc-art-title{
+    height:76px;
+    line-height:76px;
+    font-size:18px;
+}
+.zc-sub-title{
+    height:30px;
+    line-height:30px;
+    font-size:14px;
+}
+.inline-zx{
+    width:128px;height:34px;
+    border-radius:17px;
+    background:#de0f15;
+    text-align:center;
+    line-height:34px;
+    margin-top:60px;
+    margin-bottom:10px;
+}
+.inline-icon{
+    width:128px;height:26px;
+    line-height:26px;
+}
+.inline-sub-icon{
+    width:24px;height:24px;
+    margin-right:9px;
+    margin-left:9px;
+    float: left;
+}
+.copyright{
+    width:100%;height:58px;
+    background:#000;
+    line-height:58px;
+    color:#fff;
+}
