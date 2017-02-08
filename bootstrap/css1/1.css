@@ -1,0 +1,386 @@
+ul,ol,body,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,blockquote,figure,form,fieldset,input,legend,pre,abbr,button {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+body{ "HanHei SC","PingHei","PingFang SC","STHeitiSC-Light","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+*{
+    box-sizing:border-box;
+}
+img{
+    border:none;
+}
+/*顶部*/
+.com{
+    width:100%;height:40px;
+    background:#444444;
+}
+span{
+    line-height: 40px;
+    display:block;
+    float:left;
+}
+a{
+    text-decoration:none;
+    font-size:16px;
+    color:#ffffff;
+}
+a:hover{
+    color:#2F85D8;
+}
+.nev{
+    width:100%;height:44px;
+    background:#313131;
+    cursor:default;
+}
+.nev-container{
+    width:1000px;height:44px;
+    margin:0 auto;
+    text-align:justify;
+    /*!*两端对齐*!*/
+}
+.nev-container:after{
+    content:"";
+    display:inline-block;
+    width:100%;
+}
+.item{
+    height:44px;
+    line-height:44px;
+    color:#ffffff;
+    display:inline-block;
+    /*两端对齐*/
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 223361 */
+    src: url('http://at.alicdn.com/t/font_ys5labn08h1zia4i.eot');
+    src: url('http://at.alicdn.com/t/font_ys5labn08h1zia4i.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_ys5labn08h1zia4i.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_ys5labn08h1zia4i.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_ys5labn08h1zia4i.svg#iconfont') format('svg');
+}
+
+.icon{
+    font-family:'iconfont';
+    line-height:44px;
+}
+#open{
+    color:#fff;
+    cursor:pointer;
+}
+.item a{
+    color:#fff;
+    transition:all 0.5s;
+}
+.item a:hover{
+    color:#969696;
+}
+@media screen and (max-width:1068px) {
+    .nev-container{
+        width:100%;
+        padding:0 20px;
+    }
+}
+@media screen and (max-width:735px) {
+    .hidden-s{
+        display:none;
+    }
+    .show-s{
+         display:inline-block;
+        transition:all 0.5s;
+    }
+    .show-s:hover{
+        color:#999;
+    }
+}
+/*banner开始*/
+.banner-container{
+    width:100%;height:702px;
+    background:#fff;
+    position:relative;
+    overflow:hidden;
+}
+.banner-box{
+    width:100%;height:182px;
+    background:#fff;
+}
+h1{
+    width:100%;
+    line-height:150px;
+    text-align:center;
+    display:block;
+    color:#333;
+    font-size:30px;
+}
+h2{
+    width:100%;
+    text-align:center;
+    display:block;
+    color:#333;
+    margin-top:-60px;
+    font-size:34px;
+}
+.banner-img{
+    width:100%;height:620px;
+    background:url(../images1/xlarge.jpg) no-repeat center;
+    background-size:contain;
+    margin:auto;
+    position:absolute;
+    bottom:-10%;
+}
+@media screen and (max-width:1068px){
+    .banner-container{
+        width:100%;height:547px;
+        background:#fff;
+        position:relative;
+
+    }
+    .banner-img{
+        width:100%;height:367px;
+        background:url(../images1/medium.jpg) no-repeat center;
+        background-size:contain;
+        /*margin:auto;*/
+        position:absolute;
+        bottom:-10%;
+    }
+}
+@media screen and (max-width:735px){
+    .banner-container{
+        width:100%;height:543px;
+        background:#fff;
+        /*position:relative;*/
+
+    }
+    .banner-box{
+        width:100%;height:190px;
+        background:#fff;
+    }
+    .banner-img{
+        width:100%;height:353px;
+        background:url(../images1/small.jpg) no-repeat center;
+        background-size:contain;
+        /*margin:auto;*/
+        /*position:absolute;*/
+    }
+}
+/*产品展示*/
+.container{
+    width:100%;height:auto;
+    padding:1px;
+    margin-top:1px;
+}
+/*阀值  布局发生变化是的临界值*/
+.container:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.container .list{
+    float:left;
+    width:25%;height:200px;
+    background-position:center;
+}
+.container .list:nth-child(1){
+    background-image:url(../images1/L1.jpg);
+    border:1px solid #fff;
+    /*background-position: center;*/
+}
+.container .list:nth-child(2){
+    background-image:url(../images1/L2.jpg);
+    border:1px solid #fff;
+    /*background-position:center;*/
+}
+.container .list:nth-child(3){
+    background-image:url(../images1/L3.jpg);
+    border:1px solid #fff;
+    /*background-position:center;*/
+}
+.container .list:nth-child(4){
+    background-image:url(../images1/L4.jpg);
+    border:1px solid #fff;
+    /*background-position:center;*/
+}
+@media screen and (max-width:1068px){
+    .container .list{
+        width:50%;
+    }
+    .container .list:nth-child(1) {
+        background-image: url(../images1/M1.jpg);
+        border:1px solid #fff;
+        left:auto;
+    }
+    .container .list:nth-child(2){
+        background-image:url(../images1/M2.jpg);
+        border:1px solid #fff;
+        right:auto;
+        /*background-position:center;*/
+    }
+    .container .list:nth-child(3){
+        background-image:url(../images1/M3.jpg);
+        border:1px solid #fff;
+        left:auto;
+        /*background-position:center;*/
+    }
+    .container .list:nth-child(4){
+        background-image:url(../images1/M4.jpg);
+        border:1px solid #fff;
+        right:auto;
+        /*background-position:center;*/
+    }
+}
+@media screen and (max-width:735px){
+    .container .list{
+        width:100%;
+    }
+    .container .list:nth-child(1) {
+        background-image: url(../images1/S1.jpg);
+        border:1px solid #fff;
+        margin:0 auto;
+    }
+    .container .list:nth-child(2){
+        background-image:url(../images1/S2.jpg);
+        border:1px solid #fff;
+        margin:0 auto;
+    }
+    .container .list:nth-child(3){
+        background-image:url(../images1/S3.jpg);
+        border:1px solid #fff;
+        margin:0 auto;
+    }
+    .container .list:nth-child(4){
+        background-image:url(../images1/S4.jpg);
+        border:1px solid #fff;
+        margin:0 auto;
+    }
+}
+/*双镜头*/
+.jt{
+    width:980px;height:49px;
+    border-bottom:1px solid #E3E3E3;
+    margin:0 auto;
+    line-height:47px;
+    font-size:12px;
+}
+/*footer开始*/
+.footer{
+    width:100%;height:auto;
+    background:#f2f2f2;
+}
+.footer .container{
+    width:980px;height:auto;
+    margin:0 auto;
+}
+.footer .container:after{
+    content:"";
+    display:block;
+    clear: both;
+}
+.footer-box{
+    width:20%;height:auto;
+    float:left;
+}
+.footer-box li a{
+    color: #666;
+    font-size: 12px;
+    list-style: none;
+    /*line-height:24px;*/
+}
+.footer-box a:hover{
+    text-decoration:underline;
+}
+.add{
+    height:20px;
+    display:none;
+    float:right;
+}
+.add:after{
+    content:"";
+    display:block;
+    clear: both;
+}
+.nr2{
+    display:block;
+    cursor:default;
+}
+@media screen and (max-width:1068px){
+    .jt{
+        width:100%;height:49px;
+        border-bottom:1px solid #E3E3E3;
+        padding-left:10px;
+        margin:0 auto;
+        line-height:47px;
+        font-size:12px;
+    }
+    .footer .container{
+        width:100%;
+        padding-left:10px;
+    }
+}
+@media screen and (max-width:735px){
+    .add{
+        display:inline-block;
+        height:20px;
+        line-height:20px;
+    }
+    .footer-title{
+        border-bottom:1px solid #E3E3E3;
+    }
+    .footer-box{
+        width:100%;
+        height:auto;
+
+    }
+    .footer-box .nr2{
+        border-bottom:1px solid #E3E3E3;
+        /*padding-left:10px;*/
+        cursor:pointer;
+    }
+    .footer-box ul{
+        height:0;
+        overflow:hidden;
+    }
+}
+/*最下面*/
+.at{
+     width:980px;height:auto;
+     margin:5px auto;
+     font-size:12px;
+     /*color:#727F8C;*/
+ }
+.at a{
+    color:#077ACC;
+    font-size:12px;
+}
+.at a:hover{
+    text-decoration:underline;
+    color:#333;
+}
+.copy{
+    width:980px;height:auto;
+    margin:5px auto;
+    font-size:12px;
+    color:#727F8C;
+}
+.copy a{
+    color:#666;
+    font-size:12px;
+}
+.copy a:hover{
+    color:#333;
+    text-decoration:underline;
+}
+.bl{
+    width:980px;height:auto;
+    font-size:12px;
+    margin:5px auto;
+    color:#727F8C;
+}
+.bl a{
+    color:#666;
+    font-size:12px;
+}
+.bl a:hover{
+    color:#333;
+    text-decoration:underline;
+}
