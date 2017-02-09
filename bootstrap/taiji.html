@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+       @keyframes round{
+              0%{
+                     transform:rotate(0deg);
+              }
+              100%{
+                     transform:rotate(-360deg);
+              }
+       }
+       .box{
+		   margin:0 auto;
+		   animation:round 3s linear infinite;
+       	width:198px;height:99px;
+       	border:1px solid #000;
+       	border-bottom:100px solid #000;
+       	position:relative;
+       	border-radius: 50%;
+       }
+       .box:before{
+       	content:"";
+       	width:11px;height:11px;
+       	background:#000;
+       	border:44px solid #fff;
+       	/*display:block;*/
+      /* 	margin:0 auto;*/
+       	position:absolute;
+       	left:0;top:50%;
+       	border-radius: 50%;
+       }
+       .box:after{
+       	content:"";
+       	width:11px;height:11px;
+       	background:#fff;
+       	border:44px solid #000;
+       /*	display:block;
+       	margin:0 auto;*/
+       	position:absolute;
+       	right:0;top:50%;
+       	border-radius:50%;
+       }
+	</style>
+</head>
+<body>
+	<div class="box"></div>
+</body>
+</html>
